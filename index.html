@@ -4,12 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=`, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,th,td{
+            border:1px solid black;
+            
+        }
+        td{
+            background-color: beige;
+        }
+        td{
+            border:10px solid black;
+            border-radius: 10px;
+            border-style: groove;
+            text-align: left;
+            padding : 50px;
+            border-spacing: 30px;        
+        }
+        td:nth-child(even){
+            background-color: rgba(2 3 5 7);
+        }
+        td:hover{
+            background-color: crimson;
+        }
+    </style>
 </head>
 <body>
     <h1> hello</h1>
     <h2> Apoorva Mishra</h2>
     <h3> Good evening !</h3>
     <h4> cse 15 </h4>
+    <table style="width:50">
+        <caption> Student Details</caption>
+        <colgroup>
+         
+        <tr>
+            <th> Sno.</th>
+            <th> Name</th>
+            <th> Roll no.</th>
+        </tr>
+        </colgroup>
+        <tr>
+            <td> 1</td>
+            <td> Apoorva </td>
+            <td> 23 </td>
+        </tr>
+        <tr>
+            <td> 2</td>
+            <td> Python</td>
+            <td> 24 </td>
+        </tr>
+    </table>
     
 </body>
 </html>
