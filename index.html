@@ -26,9 +26,46 @@
         td:hover{
             background-color: crimson;
         }
+        .class1{
+           background-color:burlywood;
+           border: 10px;
+           padding: 30px;
+           margin: 20px;
+        }
     </style>
 </head>
 <body>
+    <div class="form-container">
+        <h2> Registration form</h2>
+        <form>
+            <label for="name">name</label>
+            <input type="text" id="name" name="name"
+            placeholder="enter your name" required> <br><br>
+    <!--email-->
+    <label for="password">Password</label>
+    <input type="password" id="Password" name="password"
+    placeholder="enter your name" required> <br><br>
+    <!--gender-->
+    <label>Gender</label>
+    <div class="radio-group">
+        <label><input type="radio" name="gender" value="female">Female</label>
+        <label><input type="radio" name="gender" value="male">male</label>
+    </div>
+    <!--country-->
+    <label for="country">Country</label>
+    <select id="country" name="country" required>
+        <option value="uk">uk</option>
+        <option value="india">india</option>
+        <option value="usa">usa</option>
+        <option value="canada">canada</option>
+       </select>
+       <!--message-->
+       <label for="message">Message</label>
+       <textarea id="message" name="meassage" placeholder="write your message here">
+        <button type="submit">submit</button>
+       </textarea>
+        </form>
+    </div>
     <h1> hello</h1>
     <h2> Apoorva Mishra</h2>
     <h3> Good evening !</h3>
@@ -54,6 +91,18 @@
             <td> 24 </td>
         </tr>
     </table>
+    <!l--orderded list-->
+        <ol>
+            <li> Coffee</li>
+            <li> tea</li>
+            <li> milk</li>
+        </ol>
+    <div class="class1">
+       <h1>coffee</h1>
+       <p>coffee and tea</p>
+    </div>    
+   
+
     
 </body>
 </html>
